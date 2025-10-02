@@ -40,7 +40,7 @@ DEBUG = False
 #     #'your-server-ip-here', 
 # ]
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost,django-dave-beginner.onrender.com").split(",")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost,django-dave-beginner.onrender.com").split(",") 
 
 
 
