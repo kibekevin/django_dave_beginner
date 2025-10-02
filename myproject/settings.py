@@ -37,7 +37,7 @@ DEBUG = False
 #     'www.peaknest.com',
 #     '127.0.0.1',
 #     'localhost',
-#     #'your-server-ip-here', 
+#     #'your-server-ip-here',  
 # ]
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost,django-dave-beginner.onrender.com").split(",") 
